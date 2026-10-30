@@ -343,3 +343,31 @@
     font-size: 13px !important;
   }
 }
+
+/* Fix Book Now button visibility on mobile */
+@media (max-width: 600px) {
+  .decor-card {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .decor-info {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .book-btn {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+    width: 100% !important;
+    min-height: 38px;
+    margin-top: 10px !important;
+    background: #d63384 !important;
+    color: #fff !important;
+    z-index: 2;
+  }
+}
