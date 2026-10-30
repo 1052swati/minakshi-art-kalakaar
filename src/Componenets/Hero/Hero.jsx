@@ -36,7 +36,7 @@ function Hero() {
 
         <div className="hero-buttons">
           <button
-            className="book-btn"
+            className="hero-book-btn"
             onClick={() =>
               window.open(
                 "https://wa.me/919326276820?text=" +
