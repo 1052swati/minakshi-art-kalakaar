@@ -371,3 +371,7 @@
     z-index: 2;
   }
 }
+.decor-card {
+  height: auto !important;
+  overflow: visible !important;
+}
