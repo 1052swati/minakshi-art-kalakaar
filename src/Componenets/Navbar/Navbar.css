@@ -173,3 +173,14 @@
     display: none !important;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between !important;
+  }
+
+  .menu-icon {
+    margin-left: auto !important;
+    margin-right: 5px;
+  }
+}
